@@ -1,0 +1,17 @@
+name = "pocapoco"
+main = ".open-next/worker.js"
+compatibility_date = "2026-03-03"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pocapoco-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[vars]
+# 本番では `wrangler secret put ADMIN_PASSWORD` で設定推奨
+ADMIN_PASSWORD = "pocapoco_lin1013"

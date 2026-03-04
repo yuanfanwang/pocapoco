@@ -10,7 +10,7 @@ binding = "ASSETS"
 [[d1_databases]]
 binding = "DB"
 database_name = "pocapoco-db"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_id = "ac37dad1-4555-43c9-99da-692c70c4e1c1"
 
 [vars]
 # 本番では `wrangler secret put ADMIN_PASSWORD` で設定推奨
